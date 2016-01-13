@@ -1,0 +1,86 @@
+﻿[2016.01.08-00.19.35:167][  0]Log file open, 01/08/16 01:19:35
+[2016.01.08-00.19.35:167][  0]LogInit:Display: Running engine for game: UnderUmbrella
+[2016.01.08-00.19.35:167][  0]LogPlatformFile: Not using cached read wrapper
+[2016.01.08-00.19.35:167][  0]LogInit:Display: RandInit(-1076870329) SRandInit(-1076870326).
+[2016.01.08-00.19.35:167][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.08-00.19.35:167][  0]LogStats: Stats thread started at 0.102382
+[2016.01.08-00.19.35:167][  0]LogInit: Version: 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2016.01.08-00.19.35:167][  0]LogInit: API Version: 2758231
+[2016.01.08-00.19.35:167][  0]LogInit: Compiled (64-bit): Dec  4 2015 19:44:40
+[2016.01.08-00.19.35:167][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.01.08-00.19.35:167][  0]LogInit: Build Configuration: Development
+[2016.01.08-00.19.35:167][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.01.08-00.19.35:167][  0]LogInit: Command line: 
+[2016.01.08-00.19.35:167][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.01.08-00.19.35:167][  0]LogInit: Rocket: 1
+[2016.01.08-00.19.35:182][  0]LogInit: Using libcurl 7.41.0
+[2016.01.08-00.19.35:182][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.08-00.19.35:182][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.08-00.19.35:182][  0]LogInit:  - other features:
+[2016.01.08-00.19.35:182][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.08-00.19.35:182][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.08-00.19.35:182][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.08-00.19.35:182][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.08-00.19.35:182][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.08-00.19.35:182][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.08-00.19.35:182][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.08-00.19.35:182][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.08-00.19.35:182][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.08-00.19.35:182][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.08-00.19.35:193][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.08-00.19.35:201][  0]LogInit: Object subsystem initialized
+[2016.01.08-00.19.35:202][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.08-00.19.35:202][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.08-00.19.35:217][  0]LogInit: Computer: DESKTOP-6H6TUD6
+[2016.01.08-00.19.35:217][  0]LogInit: User: Home
+[2016.01.08-00.19.35:217][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.08-00.19.35:217][  0]LogInit: High frequency timer resolution =3.906460 MHz
+[2016.01.08-00.19.35:217][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.01.08-00.19.35:217][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.08-00.19.35:217][  0]LogMemory: Process Physical Memory: 55.98 MB used, 55.98 MB peak
+[2016.01.08-00.19.35:217][  0]LogMemory: Process Virtual Memory: 56.73 MB used, 56.73 MB peak
+[2016.01.08-00.19.35:217][  0]LogMemory: Physical Memory: 3000.64 MB used, 8098.55 MB total
+[2016.01.08-00.19.35:217][  0]LogMemory: Virtual Memory: 383.76 MB used, 134217728.00 MB total
+[2016.01.08-00.19.35:272][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.01.08-00.19.35:730][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660   (Feature Level 11_0)
+[2016.01.08-00.19.35:730][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 4049MB of shared system memory, 1 output[s]
+[2016.01.08-00.19.35:733][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.08-00.19.35:733][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4049MB of shared system memory, 0 output[s]
+[2016.01.08-00.19.35:733][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.08-00.19.35:738][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.08-00.19.35:739][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.08-00.19.35:760][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.08-00.19.35:778][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../../Users/Home/Documents/GitHub/underUmbrella/Intermediate/Shaders/WorkingDirectory/4592/).
+[2016.01.08-00.19.35:778][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Home/AppData/Local/Temp/UnrealShaderWorkingDir/CD10F4E749ED0CDDF6CF3E8823185959/'.
+[2016.01.08-00.19.35:778][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.08-00.19.37:025][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.08-00.19.37:033][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.08-00.19.37:042][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.08-00.19.37:051][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.08-00.19.37:058][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.08-00.19.37:065][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.08-00.19.37:069][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.08-00.19.37:074][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.08-00.19.37:079][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.08-00.19.37:085][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.08-00.19.37:090][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.08-00.19.37:101][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.01.08-00.19.37:101][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.08-00.19.37:102][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.08-00.19.37:124][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.08-00.19.37:129][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.08-00.19.37:134][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.08-00.19.37:139][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.08-00.19.37:139][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.08-00.19.37:274][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.08-00.19.37:357][  0]LogDerivedDataCache: Loaded boot cache 0.08s 41MB C:/Users/Home/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.08-00.19.37:358][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Home/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.01.08-00.19.37:358][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Home/Documents/GitHub/underUmbrella/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.08-00.19.37:358][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.08-00.19.37:358][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Home/Documents/GitHub/underUmbrella/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.08-00.19.37:358][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.08-00.19.37:436][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.08-00.19.37:449][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Home/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.08-00.19.37:737][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.08-00.19.37:741][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.08-00.19.37:879][  0]LogMeshUtilities

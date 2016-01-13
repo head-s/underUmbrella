@@ -1,0 +1,125 @@
+﻿[2016.01.10-19.30.48:122][  0]Log file open, 01/10/16 20:30:48
+[2016.01.10-19.30.48:122][  0]LogInit:Display: Running engine for game: UnderUmbrella
+[2016.01.10-19.30.48:122][  0]LogPlatformFile: Not using cached read wrapper
+[2016.01.10-19.30.48:122][  0]LogInit:Display: RandInit(-841263924) SRandInit(-841263921).
+[2016.01.10-19.30.48:122][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.10-19.30.48:122][  0]LogStats: Stats thread started at 0.099843
+[2016.01.10-19.30.48:122][  0]LogInit: Version: 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2016.01.10-19.30.48:122][  0]LogInit: API Version: 2758231
+[2016.01.10-19.30.48:122][  0]LogInit: Compiled (64-bit): Dec  4 2015 19:44:40
+[2016.01.10-19.30.48:122][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.01.10-19.30.48:122][  0]LogInit: Build Configuration: Development
+[2016.01.10-19.30.48:122][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.01.10-19.30.48:122][  0]LogInit: Command line: 
+[2016.01.10-19.30.48:122][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.01.10-19.30.48:122][  0]LogInit: Rocket: 1
+[2016.01.10-19.30.48:140][  0]LogInit: Using libcurl 7.41.0
+[2016.01.10-19.30.48:140][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.10-19.30.48:140][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.10-19.30.48:140][  0]LogInit:  - other features:
+[2016.01.10-19.30.48:140][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.10-19.30.48:140][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.10-19.30.48:140][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.10-19.30.48:140][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.10-19.30.48:140][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.10-19.30.48:140][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.10-19.30.48:140][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.10-19.30.48:140][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.10-19.30.48:140][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.10-19.30.48:140][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.10-19.30.48:152][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.10-19.30.48:160][  0]LogInit: Object subsystem initialized
+[2016.01.10-19.30.48:160][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.10-19.30.48:160][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.10-19.30.48:175][  0]LogInit: Computer: DESKTOP-6H6TUD6
+[2016.01.10-19.30.48:176][  0]LogInit: User: Home
+[2016.01.10-19.30.48:176][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.10-19.30.48:176][  0]LogInit: High frequency timer resolution =3.906454 MHz
+[2016.01.10-19.30.48:176][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.01.10-19.30.48:176][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.10-19.30.48:176][  0]LogMemory: Process Physical Memory: 56.05 MB used, 56.05 MB peak
+[2016.01.10-19.30.48:176][  0]LogMemory: Process Virtual Memory: 56.90 MB used, 56.90 MB peak
+[2016.01.10-19.30.48:176][  0]LogMemory: Physical Memory: 3942.33 MB used, 8098.55 MB total
+[2016.01.10-19.30.48:176][  0]LogMemory: Virtual Memory: 383.76 MB used, 134217728.00 MB total
+[2016.01.10-19.30.48:228][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.01.10-19.30.48:718][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660   (Feature Level 11_0)
+[2016.01.10-19.30.48:718][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 4049MB of shared system memory, 1 output[s]
+[2016.01.10-19.30.48:720][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.10-19.30.48:720][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4049MB of shared system memory, 0 output[s]
+[2016.01.10-19.30.48:721][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.10-19.30.48:725][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.10-19.30.48:725][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.10-19.30.48:748][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.10-19.30.48:760][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../../Users/Home/Documents/GitHub/underUmbrella/Intermediate/Shaders/WorkingDirectory/5140/).
+[2016.01.10-19.30.48:761][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Home/AppData/Local/Temp/UnrealShaderWorkingDir/4838F2CE49501AF4B52F8C88C631ED81/'.
+[2016.01.10-19.30.48:761][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.10-19.30.49:925][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.10-19.30.49:934][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.10-19.30.49:943][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.10-19.30.49:951][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.10-19.30.49:958][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.10-19.30.49:965][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.10-19.30.49:971][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.10-19.30.49:976][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.10-19.30.49:981][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.10-19.30.49:987][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.10-19.30.49:993][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.10-19.30.50:004][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.01.10-19.30.50:004][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.10-19.30.50:006][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.10-19.30.50:029][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.10-19.30.50:035][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.10-19.30.50:040][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.10-19.30.50:047][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.10-19.30.50:047][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.10-19.30.50:189][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.10-19.30.50:269][  0]LogDerivedDataCache: Loaded boot cache 0.08s 41MB C:/Users/Home/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.10-19.30.50:269][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Home/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.01.10-19.30.50:270][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Home/Documents/GitHub/underUmbrella/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.10-19.30.50:270][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.10-19.30.50:270][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Home/Documents/GitHub/underUmbrella/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.10-19.30.50:270][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.10-19.30.50:343][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.10-19.30.50:356][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Home/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.10-19.30.50:637][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.10-19.30.50:641][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.10-19.30.50:783][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.10-19.30.50:783][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.10-19.30.51:102][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.10-19.30.52:754][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.10-19.30.52:875][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2016.01.10-19.30.53:126][  0]SourceControl: Info Source control is disabled
+[2016.01.10-19.30.53:129][  0]SourceControl: Info Source control is disabled
+[2016.01.10-19.30.53:151][  0]SourceControl: Info Source control is disabled
+[2016.01.10-19.30.53:170][  0]SourceControl: Info Source control is disabled
+[2016.01.10-19.30.53:613][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.01.10-19.30.53:613][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.01.10-19.30.53:691][  0]LogEngine: Initializing Engine...
+[2016.01.10-19.30.53:699][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.01.10-19.30.53:700][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.01.10-19.30.53:871][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.10-19.30.53:882][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.10-19.30.53:892][  0]LogInit: FAudioDevice initialized.
+[2016.01.10-19.30.53:935][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/Home/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.10-19.30.53:948][  0]LogInit: Texture streaming: Enabled
+[2016.01.10-19.30.53:959][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.10-19.30.53:959][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2016.01.10-19.30.53:960][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId bda7634e4e3800c847f018b8ed0b1411|c7ff289020a144faadd7bc99c3af9303|18c70efd-9716-4caf-b1ce-617add21ccd6
+[2016.01.10-19.30.53:960][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.10-19.30.53:978][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Google Japanese Input).
+[2016.01.10-19.30.54:005][  0]LogInit: Transaction tracking system initialized
+[2016.01.10-19.30.54:052][  0]BlueprintLog: New page: Editor Load
+[2016.01.10-19.30.54:194][  0]LocalizationService: Info Localization service is disabled
+[2016.01.10-19.30.54:316][  0]LogConsoleResponse:Display: 
+[2016.01.10-19.30.54:488][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.10-19.30.54:593][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Home/Documents/GitHub/underUmbrella/Content/' took 0.02s
+[2016.01.10-19.30.54:594][  0]SourceControl: Info Source control is disabled
+[2016.01.10-19.30.54:594][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Home/Documents/GitHub/underUmbrella/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.10-19.30.54:606][  0]LightingResults: New page: Lighting Build
+[2016.01.10-19.30.54:611][  0]MapCheck: New page: Map Check
+[2016.01.10-19.30.54:611][  0]LightingResults: New page: Lighting Build
+[2016.01.10-19.30.54:626][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022A7D606AC0
+[2016.01.10-19.30.54:851][  0]LogLinker:Warning: Asset '../../../../../../Users/Home/Documents/GitHub/underUmbrella/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.10-19.30.56:454][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.01.10-19.30.56:468][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.10-19.30.56:468][  0]Cmd: MAP CHECKDEP NOCLEA
